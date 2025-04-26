@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Manny's Signature Kitchen - Amazing and Delicious Food</title>
+  <meta name="title" content="Manny's Signature Kitchen - Amazing and Delicious Food">
+  <meta name="description" content="Restaurant in Bronx, NY, led by Chef Manny Sánchez">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="../favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="../assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="../assets/images/hero-slider-1.jpg">
+  <link rel="preload" as="image" href="../assets/images/hero-slider-2.jpg">
+  <link rel="preload" as="image" href="../assets/images/hero-slider-3.jpg">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #PRELOADER
+  -->
+  <div class="preload" data-preaload>
+    <div class="circle"></div>
+    <p class="text">Manny's Signature Kitchen</p>
+  </div>
+
+  <!-- 
+    - #TOP BAR
+  -->
+  <div class="topbar">
+    <div class="container">
+      <address class="topbar-item">
+        <div class="icon">
+          <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+        </div>
+        <span class="span">
+          Bronx, NY
+        </span>
+      </address>
+
+      <div class="separator"></div>
+
+      <div class="topbar-item item-2">
+        <div class="icon">
+          <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+        </div>
+      </div>
+
+      <a href="tel:+16462491259" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+        </div>
+        <span class="span">+1 (646) 249-1259</span>
+      </a>
+
+      <div class="separator"></div>
+
+      <a href="mailto:info@mannysignaturekitchen.com" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+        </div>
+        <span class="span">info@mannysignaturekitchen.com</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- 
+    - #HEADER
+  -->
+  <header class="header" data-header>
+    <div class="container">
+      <a href="#" class="logo">
+        <img src="../assets/images/logo.png" width="180" height="60" alt="Manny's Signature Kitchen - Home">
+      </a>
+
+      <nav class="navbar" data-navbar>
+        <button class="close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <a href="#" class="logo">
+          <img src="../assets/images/logo.png" width="180" height="60" alt="Manny's Signature Kitchen - Home">
+        </a>
+
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link hover-underline active">
+              <div class="separator"></div>
+              <span class="span">Home</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="menu.html" class="navbar-link hover-underline">
+              <div class="separator"></div>
+              <span class="span">Menus</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link hover-underline">
+              <div class="separator"></div>
+              <span class="span">About Us</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link hover-underline">
+              <div class="separator"></div>
+              <span class="span">Chef Manny Sanchez</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link hover-underline">
+              <div class="separator"></div>
+              <span class="span">Contact</span>
+            </a>
+          </li>
+        </ul>
+
+        <div class="text-center">
+          <p class="headline-1 navbar-title">Visit Us</p>
+
+          <address class="body-4">
+            Moca, Dominican Republic
+          </address>
+
+          <p class="body-4 navbar-text">Open: 9:30 am - 2:30 pm</p>
+
+          <a href="mailto:info@mannysignaturekitchen.com" class="body-4 sidebar-link">info@mannysignaturekitchen.com</a>
+
+          <div class="separator"></div>
+
+          <p class="contact-label">Booking Request</p>
+
+          <a href="tel:+18093718427" class="body-1 contact-number hover-underline">
+            +1 (809) 371-8427
+          </a>
+        </div>
+      </nav>
+
+      <a href="#" class="btn btn-secondary">
+        <span class="text text-1">Plan Your Event</span>
+        <span class="text text-2" aria-hidden="true">Plan Your Event</span>
+      </a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+    </div>
+  </header>
+
+  <main>
+    <article>
+      <!-- 
+        - #HERO
+      -->
+      <section class="hero text-center" aria-label="home" id="home">
+        <ul class="hero-slider" data-hero-slider>
+          <li class="slider-item active" data-hero-slider-item>
+            <div class="slider-bg">
+              <img src="../assets/images/hero-slider-1.jpg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">Traditional & Quality</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              For the Love of<br>
+              Delicious Food
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              Come with your family and feel the joy of exquisite food
+            </p>
+
+            <a href="menu.html" class="btn btn-primary slider-reveal">
+              <span class="text text-1">View Our Menu</span>
+              <span class="text text-2" aria-hidden="true">View Our Menu</span>
+            </a>
+          </li>
+
+          <li class="slider-item" data-hero-slider-item>
+            <div class="slider-bg">
+              <img src="../assets/images/hero-slider-2.jpg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">delightful experience</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              Flavors Inspired by<br>
+              the Seasons
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              Come with your family and feel the joy of exquisite food
+            </p>
+
+            <a href="menu.html" class="btn btn-primary slider-reveal">
+              <span class="text text-1">View Our Menu</span>
+              <span class="text text-2" aria-hidden="true">View Our Menu</span>
+            </a>
+          </li>
+
+          <li class="slider-item" data-hero-slider-item>
+            <div class="slider-bg">
+              <img src="../assets/images/hero-slider-3.jpg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">amazing & delicious</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              Where Every Flavor<br>
+              Tells a Story
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              Come with your family and feel the joy of exquisite food
+            </p>
+
+            <a href="menu.html" class="btn btn-primary slider-reveal">
+              <span class="text text-1">View Our Menu</span>
+              <span class="text text-2" aria-hidden="true">View Our Menu</span>
+            </a>
+          </li>
+        </ul>
+
+        <button class="slider-btn prev" aria-label="slide to previous" data-prev-btn>
+          <ion-icon name="chevron-back"></ion-icon>
+        </button>
+
+        <button class="slider-btn next" aria-label="slide to next" data-next-btn>
+          <ion-icon name="chevron-forward"></ion-icon>
+        </button>
+
+        <a href="#" class="hero-btn has-after">
+          <img src="../assets/images/hero-icon.png" width="48" height="48" alt="booking icon">
+          <span class="label-2 text-center span">Book A Table</span>
+        </a>
+      </section>
+
+      <!-- 
+        - #SERVICE
+      -->
+      <section class="section service bg-black-10 text-center" aria-label="service">
+        <div class="container">
+          <p class="section-subtitle label-2">Flavors For Royalty</p>
+          <h2 class="headline-1 section-title">We Offer The Best</h2>
+          <p class="section-text">
+            At Manny's Signature Kitchen, we specialize in creating exceptional culinary experiences for your events. Chef Manny Sánchez and his team of professionals transform every occasion into a memorable moment through high-quality gastronomy that combines traditional Dominican flavors with a modern and sophisticated touch. Since our inception, we have dedicated ourselves to elevating the standard of catering service, creating a complete gastronomic experience that makes your guests feel like they're in a luxury restaurant.
+          </p>
+
+          <ul class="grid-list">
+            <li>
+              <div class="service-card">
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="../assets/images/service-1.jpg" width="285" height="336" loading="lazy" alt="Breakfast" class="img-cover">
+                  </figure>
+                </a>
+                <div class="card-content">
+                  <h3 class="title-4 card-title">
+                    <a href="menu.html">Breakfast</a>
+                  </h3>
+                  <a href="menu.html" class="btn-text hover-underline label-2">View Menu</a>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="../assets/images/service-2.jpg" width="285" height="336" loading="lazy" alt="Appetizers" class="img-cover">
+                  </figure>
+                </a>
+                <div class="card-content">
+                  <h3 class="title-4 card-title">
+                    <a href="menu.html">Appetizers</a>
+                  </h3>
+                  <a href="menu.html" class="btn-text hover-underline label-2">View Menu</a>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="../assets/images/service-3.jpg" width="285" height="336" loading="lazy" alt="Drinks" class="img-cover">
+                  </figure>
+                </a>
+                <div class="card-content">
+                  <h3 class="title-4 card-title">
+                    <a href="menu.html">Drinks</a>
+                  </h3>
+                  <a href="menu.html" class="btn-text hover-underline label-2">View Menu</a>
+                </div>
+              </div>
+            </li>
+          </ul>
+
+          <img src="../assets/images/shape-1.png" width="246" height="412" loading="lazy" alt="shape" class="shape shape-1 move-anim">
+          <img src="../assets/images/shape-2.png" width="343" height="345" loading="lazy" alt="shape" class="shape shape-2 move-anim">
+        </div>
+      </section>
+
+      <!-- 
+        - #ABOUT
+      -->
+      <section class="section about text-center" aria-labelledby="about-label" id="about">
+        <div class="container">
+          <div class="about-content">
+            <p class="label-2 section-subtitle" id="about-label">Our Story</p>
+            <h2 class="headline-1 section-title">Every Flavor Tells a Story</h2>
+            <p class="section-text">
+              From our humble beginnings, we have grown to become a culinary destination of reference. Every dish we serve is an expression of our Dominican heritage and our commitment to excellence. Our restaurant is not just a place to eat, it's a space where families gather, friends celebrate, and food lovers find their home.
+            </p>
+
+            <div class="contact-label">Request a Reservation</div>
+            <a href="tel:+16462491259" class="body-1 contact-number hover-underline">+1 (646) 249 1259</a>
+
+            <a href="#" class="btn btn-primary">
+              <span class="text text-1">Contact Us</span>
+              <span class="text text-2" aria-hidden="true">Contact Us</span>
+            </a>
+          </div>
+
+          <figure class="about-banner">
+            <img src="../assets/images/about-banner.jpg" width="570" height="570" loading="lazy" alt="about banner" class="w-100" data-parallax-item data-parallax-speed="1">
+
+            <div class="abs-img abs-img-1 has-before" data-parallax-item data-parallax-speed="1.75">
+              <img src="../assets/images/many1.JPG" width="285" height="285" loading="lazy" alt="" class="w-100">
+            </div>
+
+            <div class="abs-img abs-img-2 has-before">
+              <div class="badge-text" style="width: 133px; height: 134px; display: flex; align-items: center; justify-content: center; font-family: 'Forum', serif; font-size: 24px; color: #FFFFFF; text-align: center; padding: 20px; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">
+                Since 2008
+              </div>
+            </div>
+          </figure>
+
+          <img src="../assets/images/shape-3.png" width="197" height="194" loading="lazy" alt="" class="shape">
+        </div>
+      </section>
+
+      <!-- 
+        - #SPECIAL DISH
+      -->
+      <section class="special-dish text-center" aria-labelledby="dish-label">
+        <div class="special-dish-banner">
+          <img src="../assets/images/special-dish-banner.jpg" width="940" height="900" loading="lazy" alt="special dish" class="img-cover">
+        </div>
+
+        <div class="special-dish-content bg-black-10">
+          <div class="container">
+            <img src="../assets/images/badge-1.png" width="28" height="41" loading="lazy" alt="badge" class="abs-img">
+            <p class="section-subtitle label-2">Special Dish</p>
+            <h2 class="headline-1 section-title">Lobster Tortellini</h2>
+            <p class="section-text">
+              Our premium Lobster Tortellini service is one of our most requested creations for special events. Each bite is an experience that transports your guests on a journey of exquisite flavors, prepared with the finest ingredients and the love that only Chef Manny Sanchez can provide, all served with the elegance your event deserves.
+            </p>
+
+            <div class="wrapper">
+            </div>
+
+            <a href="menu.html" class="btn btn-primary">
+              <span class="text text-1">VIEW FULL MENU</span>
+              <span class="text text-2" aria-hidden="true">VIEW FULL MENU</span>
+            </a>
+          </div>
+        </div>
+
+        <img src="../assets/images/shape-4.png" width="179" height="359" loading="lazy" alt="" class="shape shape-1">
+        <img src="../assets/images/shape-9.png" width="351" height="462" loading="lazy" alt="" class="shape shape-2">
+      </section>
+
+      <!-- 
+        - #MENU
+      -->
+      <section class="section menu" aria-label="menu-label" id="menu">
+        <div class="container">
+          <p class="section-subtitle text-center label-2">Special Selection</p>
+          <h2 class="headline-1 section-title text-center">Delicious Menu</h2>
+
+          <ul class="grid-list">
+            <li>
+              <div class="menu-card hover:card">
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="../assets/images/menu-1.png" width="100" height="100" loading="lazy" alt="Bacalaitos" class="img-cover">
+                </figure>
+                <div>
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="menu.html" class="card-title">Bacalaitos</a>
+                    </h3>
+                    <span class="span title-2">Popular Appetizer</span>
+                  </div>
+                  <p class="card-text label-1">
+                    Delicious Dominican-style cod fritters, perfect for any event
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="../assets/images/menu-2.png" width="100" height="100" loading="lazy" alt="Stuffed Potato" class="img-cover">
+                </figure>
+                <div>
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="menu.html" class="card-title">Stuffed Potato</a>
+                    </h3>
+                    <span class="span title-2">Classic Appetizer</span>
+                  </div>
+                  <p class="card-text label-1">
+                    Potato stuffed with meat or cheese, fried to perfection
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="../assets/images/menu-3.png" width="100" height="100" loading="lazy" alt="Empanadas" class="img-cover">
+                </figure>
+                <div>
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="menu.html" class="card-title">Empanadas</a>
+                    </h3>
+                    <span class="span title-2">Versatile Appetizer</span>
+                  </div>
+                  <p class="card-text label-1">
+                    Chicken or beef empanadas, crispy and delicious, perfect for any occasion
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="../assets/images/menu-4.png" width="100" height="100" loading="lazy" alt="Wings" class="img-cover">
+                </figure>
+                <div>
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="menu.html" class="card-title">Wings</a>
+                    </h3>
+                    <span class="span title-2">Main Course</span>
+                  </div>
+                  <p class="card-text label-1">
+                    Bone-in or boneless wings, available in different sauces, ideal for casual events
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="../assets/images/menu-5.png" width="100" height="100" loading="lazy" alt="Mofongo" class="img-cover">
+                </figure>
+                <div>
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="menu.html" class="card-title">Mofongo</a>
+                    </h3>
+                    <span class="span title-2">Special Dish</span>
+                  </div>
+                  <p class="card-text label-1">
+                    Mofongo with shrimp, fried meat or chicken, trifongo available
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="../assets/images/menu-6.png" width="100" height="100" loading="lazy" alt="Churrasco" class="img-cover">
+                </figure>
+                <div>
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="menu.html" class="card-title">Churrasco</a>
+                    </h3>
+                    <span class="span title-2">Premium Dish</span>
+                  </div>
+                  <p class="card-text label-1">
+                    Grilled skirt steak with vegetables and potatoes
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+
+          <a href="menu.html" class="btn btn-primary">
+            <span class="text text-1">View Full Menu</span>
+            <span class="text text-2" aria-hidden="true">View Full Menu</span>
+          </a>
+
+          <img src="../assets/images/shape-5.png" width="921" height="1036" loading="lazy" alt="shape" class="shape shape-2 move-anim">
+          <img src="../assets/images/shape-6.png" width="343" height="345" loading="lazy" alt="shape" class="shape shape-3 move-anim">
+        </div>
+      </section>
+
+      <!-- 
+        - #TESTIMONIALS
+      -->
+      <section class="section testi text-center has-bg-image"
+        style="background-image: url('../assets/images/testimonial-bg.jpg')" aria-label="testimonials">
+        <div class="container">
+          <div class="quote">"</div>
+          <p class="headline-2 testi-text">
+            I wanted to thank you for inviting me to that amazing dinner the other night. The food was extraordinary.
+          </p>
+
+          <div class="wrapper">
+            <div class="separator"></div>
+            <div class="separator"></div>
+            <div class="separator"></div>
+          </div>
+
+          <div class="profile">
+            <img src="../assets/images/testi-avatar.jpg" width="100" height="100" loading="lazy" alt="Manny Sanchez" class="img">
+            <p class="label-2 profile-name">Manny Sanchez</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 
+        - #FEATURES
+      -->
+      <section class="section features text-center" aria-label="features">
+        <div class="container">
+          <p class="section-subtitle label-2">Why Choose Us</p>
+          <h2 class="headline-1 section-title">Our Strengths</h2>
+
+          <ul class="grid-list">
+            <li class="feature-item">
+              <div class="feature-card">
+                <div class="card-icon">
+                  <img src="../assets/images/features-icon-1.png" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+                <h3 class="title-2 card-title">Hygienic Food</h3>
+                <p class="label-1 card-text">At Manny's Signature Kitchen, hygiene and quality are our absolute priorities. Each ingredient is carefully selected and prepared following the highest food safety standards, ensuring that your event is not only delicious but also safe and professional.</p>
+              </div>
+            </li>
+
+            <li class="feature-item">
+              <div class="feature-card">
+                <div class="card-icon">
+                  <img src="../assets/images/features-icon-2.png" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+                <h3 class="title-2 card-title">Fresh Environment</h3>
+                <p class="label-1 card-text">Our welcoming and modern environment is designed to make you feel at home. With elegant decor and exceptional service, we create the perfect setting to enjoy unforgettable moments with your loved ones.</p>
+              </div>
+            </li>
+
+            <li class="feature-item">
+              <div class="feature-card">
+                <div class="card-icon">
+                  <img src="../assets/images/features-icon-3.png" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+                <h3 class="title-2 card-title">Skilled Chefs</h3>
+                <p class="label-1 card-text">Our team of chefs, led by Manny Sánchez, combines years of event experience with an unbreakable passion for cooking. Each dish is a culinary masterpiece that reflects our dedication to gastronomic excellence and our commitment to your satisfaction.</p>
+              </div>
+            </li>
+
+            <li class="feature-item">
+              <div class="feature-card">
+                <div class="card-icon">
+                  <img src="../assets/images/features-icon-4.png" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+                <h3 class="title-2 card-title">Event & Party</h3>
+                <p class="label-1 card-text">Whether it's a wedding, corporate event, private party, or any special celebration, our team is prepared to make your occasion an unforgettable moment. We offer personalized services adapted to your specific needs, ensuring an exceptional gastronomic experience for all your guests.</p>
+              </div>
+            </li>
+          </ul>
+
+          <img src="../assets/images/shape-7.png" width="208" height="178" loading="lazy" alt="shape" class="shape shape-1">
+          <img src="../assets/images/shape-8.png" width="120" height="115" loading="lazy" alt="shape" class="shape shape-2">
+        </div>
+      </section>
+
+      <!-- 
+        - #EVENT
+      -->
+      <section class="section event bg-black-10" aria-label="event">
+        <div class="container">
+          <p class="section-subtitle label-2 text-center">Recent Events</p>
+          <h2 class="section-title headline-1 text-center">Past Events</h2>
+
+          <ul class="grid-list">
+            <li>
+              <div class="event-card has-before hover:shine">
+                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                  <img src="../assets/images/event-1.jpg" width="350" height="450" loading="lazy" alt="Flavor so good you'll try to eat with your eyes." class="img-cover">
+                  <time class="publish-date label-2" datetime="2023-12-15">15/12/2023</time>
+                </div>
+
+                <div class="card-content">
+                  <p class="card-subtitle label-2 text-center">Food, Flavor</p>
+                  <h3 class="card-title title-2 text-center">
+                    Flavor so good you'll try to eat with your eyes.
+                  </h3>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="event-card has-before hover:shine">
+                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                  <img src="../assets/images/event-2.jpg" width="350" height="450" loading="lazy" alt="Flavor so good you'll try to eat with your eyes." class="img-cover">
+                  <time class="publish-date label-2" datetime="2023-11-08">08/11/2023</time>
+                </div>
+
+                <div class="card-content">
+                  <p class="card-subtitle label-2 text-center">Healthy Food</p>
+                  <h3 class="card-title title-2 text-center">
+                    Flavor so good you'll try to eat with your eyes.
+                  </h3>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="event-card has-before hover:shine">
+                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                  <img src="../assets/images/event-3.jpg" width="350" height="450" loading="lazy" alt="Flavor so good you'll try to eat with your eyes." class="img-cover">
+                  <time class="publish-date label-2" datetime="2023-10-03">03/10/2023</time>
+                </div>
+
+                <div class="card-content">
+                  <p class="card-subtitle label-2 text-center">Recipes</p>
+                  <h3 class="card-title title-2 text-center">
+                    Flavor so good you'll try to eat with your eyes.
+                  </h3>
+                </div>
+              </div>
+            </li>
+          </ul>
+
+          <a href="#" class="btn btn-primary">
+            <span class="text text-1">View Our Blog</span>
+            <span class="text text-2" aria-hidden="true">View Our Blog</span>
+          </a>
+        </div>
+      </section>
+    </article>
+  </main>
+
+  <!-- 
+    - #FOOTER
+  -->
+  <footer class="footer section has-bg-image text-center"
+    style="background-image: url('../assets/images/footer-bg.jpg')">
+    <div class="container">
+      <div class="footer-top grid-list">
+        <div class="footer-brand has-before has-after">
+          <a href="#" class="logo">
+            <img src="../assets/images/logo.png" width="160" height="50" alt="Manny's Signature Kitchen">
+          </a>
+
+          <address class="body-4">
+            Bronx, NY
+          </address>
+
+          <a href="mailto:info@mannysignaturekitchen.com" class="body-4 contact-link">info@mannysignaturekitchen.com</a>
+
+          <a href="tel:+16462491259" class="body-4 contact-link">Booking Request: +1 (646) 249-1259</a>
+
+          <p class="contact-label">Lunch Time</p>
+
+          <p class="body-4">
+            Monday to Sunday <br>
+            11:00 am - 2:30 pm
+          </p>
+
+          <p class="contact-label">Dinner Time</p>
+
+          <p class="body-4">
+            Monday to Sunday <br>
+            5:00 pm - 10:00 pm
+          </p>
+
+          <div class="wrapper">
+            <div class="separator"></div>
+            <div class="separator"></div>
+            <div class="separator"></div>
+          </div>
+
+          <p class="title-1">Get News & Offers</p>
+
+          <form action="" class="input-wrapper">
+            <div class="icon-wrapper">
+              <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+              <input type="email" name="email_address" placeholder="Your email" autocomplete="off" class="input-field">
+            </div>
+
+            <button type="submit" class="btn btn-secondary">
+              <span class="text text-1">Subscribe</span>
+              <span class="text text-2" aria-hidden="true">Subscribe</span>
+            </button>
+          </form>
+        </div>
+
+        <ul class="footer-list">
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Home</a>
+          </li>
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Menus</a>
+          </li>
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">About Us</a>
+          </li>
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Chef Manny Sanchez</a>
+          </li>
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Contact</a>
+          </li>
+        </ul>
+
+        <ul class="footer-list">
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Facebook</a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/mannysignaturekitchen/" class="label-2 footer-link hover-underline">Instagram</a>
+          </li>
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">TikTok</a>
+          </li>
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Youtube</a>
+          </li>
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Google Map</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright">
+          &copy; 2024 Manny's Signature Kitchen. All Rights Reserved | Created by <a href="https://www.instagram.com/lord_guccifer/"
+            target="_blank" class="link">Lord Guccif3r</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+  <a href="#top" class="back-top-btn active" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="../assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html> 
